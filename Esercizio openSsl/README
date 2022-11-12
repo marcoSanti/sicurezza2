@@ -1,0 +1,8 @@
+Per poter compilare il programma, installare la toolchain di RUST 
+  $  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+Successivamente entrare nella cartella principale e scrivere
+  $  cargo build --release
+
+L'eseguibile si trova nella cartella target/release/ e ha nome "openssl_exer"
+Copiare l'eseguibile dove si preferisce.
