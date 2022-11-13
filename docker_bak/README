@@ -1,0 +1,10 @@
+attenzione: 
+container con id 43 (shared_folder_b) la uso per http (80),  https :
+    - occhio che "solo server auth" sta su 443
+    - client https auth sta su 8443 (client auth fatta per qualsiasi client con certificato emesso da CA)
+    - client https auth con cn check su 8444 (common name deve essere Marco Edoardo Santimaria Marco Edoardo altrimenti ti butta fuori)
+
+
+il container 60ef11bfb520 ha la shared folder a... (shared_folder_a) (magari usarlo per ldap ovvero es 2 e 3 fatto bene)
+
+
