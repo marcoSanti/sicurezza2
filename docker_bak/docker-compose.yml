@@ -25,9 +25,7 @@ services:
         networks:
             net-10.9.0.0:
                 ipv4_address: 10.9.0.6
-        command: apt install vim tree && a2enmod ssl headers && \
-            cp /var/www/html/APACHE_CONFS/*.conf /etc/apache2/sites-enabled/ && mv /etc/apache2/sites-enabled/ports.conf /etc/apache2/ && \
-            apachectl start & && /bin/bash
+        
 
 
 networks:
