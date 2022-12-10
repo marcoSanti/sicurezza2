@@ -1,0 +1,14 @@
+dn: cn=Renato Accornero,ou=people,dc=di,dc=unito,dc=it 
+objectclass: inetOrgPerson
+cn: Renato Accornero
+cn: Accornero Renato
+sn: Accornero
+uid: accornero
+userpassword: prova
+carlicense: HISCAR 124
+homephone: 555-111-2223
+mail: accornero@di.unito.it
+mail: renato.accornero@gmail.com
+ou: Docenti
+
+
